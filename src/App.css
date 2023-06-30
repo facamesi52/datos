@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+
+.cancion {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 10px 10px 5px -1px rgba(150,139,150,1);
+}
+
+.cancion .like-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+}
+
+.cancion .like-button.liked {
+  color: red; /* Color activo */
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px 0px 0px 15px;
+}
+.cancion__text{
+  padding: 12px;
+}
+h5, p, h3{
+  margin: 10px 0px;
+}
+.cancion__text--genero{
+  padding: 5px;
+  width: 55px;
+  height: 24px;
+  background-color: rgb(222, 128, 223);
+  border-radius: 16px;
+  align-content: center;
+}
